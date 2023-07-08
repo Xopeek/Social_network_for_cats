@@ -3,7 +3,7 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = os.getenv('SECRET_KEY', '')
+SECRET_KEY = os.getenv('SECRET_KEY', '_bsc7llltw$qr-3+@vtz^f(orwsn@o3^$#yd(ol_nd_pygn^b6')
 
 DEBUG = bool(os.getenv('DEBUG'))
 
